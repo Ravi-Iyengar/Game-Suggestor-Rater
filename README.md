@@ -3,6 +3,8 @@ These group of Python Scripts use Random Forest methods to predict game ratings 
 
 Firstly, have your account on Backloggd.com setup and registered with games that you have played with their Ratings and Hours Played (ideally at least 50 for a good sample size; the more games available the better job the predictor does). Make sure you setup your API access token with Twitch on the IGBD website; they have a well documented page you can find on the API section.
 
+Make sure all the python scripts are in one common root folder (i.e., no sub-folders; you can just make a folder on desktop called Predictor and store them all there and run them in the order below with your choice of IDLE)
+
 Replace the yourusername section in the URL for the backlogscrapper and PlayedGamesScrapper; setup your API ID and secret on twitch and replace it in the API caller for IGDB and BacklogDataBasePuller; both of these are specific for you; I have not figured out a way to make this process automated yet so everyone doesn't have to make their own access codes/tokens by creating a full-blown application but I will update this if I am ever able to figure that out. 
 
 Additonally double-check the amount of pages you want to parse in both PlayedGames and Backlogscrapper as this will vary per account.

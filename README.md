@@ -9,6 +9,8 @@ Replace the yourusername section in the URL for the backlogscrapper and PlayedGa
 
 Additonally double-check the amount of pages you want to parse in both PlayedGames and Backlogscrapper as this will vary per account.
 
+IMPORTANT: THIS METHOD ASSUMES THE PLAYED GAME HAVE SOME HOURS SET AND SOME RATING GIVEN; without that set it will not work.
+
 Run the Files in the following order: PlayedGamesScrapper -> API Caller for IGDB -> Cleaner -> backlogscrapper -> BacklogDataBasePuller -> BacklogCleaner. 
 
 This should leave you with two big csvs called MergedGameDetails.csv and CleanedBacklogdata.csv; these are used in the final step.
